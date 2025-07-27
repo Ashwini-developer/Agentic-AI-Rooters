@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 import plotly.express as px
 
 
-DATA_DIR = os.path.join(os.path.dirname(__file__), '../test_data_dir')
+DATA_DIR = os.path.join(os.path.dirname(__file__), 'test_data_dir')
 
 # Utility to load all user data
 def load_all_user_data():
